@@ -1,0 +1,20 @@
+{
+  "name": "fleet-testcafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "testcafe": "node testcafe-desktop-run.js --browser=\\\"${BROWSER}\\\" --concurrency=${CONCURRENCY}"
+  },
+  "devDependencies": {
+    "chromedriver": "^81.0.0",
+    "testcafe": "^1.8.4",
+    "testcafe-reporter-html": "^1.4.5",
+    "testcafe-reporter-list": "^2.1.0"
+  },
+  "dependencies": {
+    "testcafe-browser-provider-saucelabs": "^1.8.0",
+    "testcafe-reporter-xunit": "^2.1.0",
+    "yargs": "^14.2.0"
+  }
+}
