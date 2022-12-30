@@ -9,7 +9,7 @@
   "devDependencies": {
     "chromedriver": "^81.0.0",
     "testcafe": "^1.8.4",
-    "testcafe-reporter-html": "^1.4.5",
+    "testcafe-reporter-html": "^1.4.6",
     "testcafe-reporter-list": "^2.1.0"
   },
   "dependencies": {
